@@ -1,0 +1,269 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+body {
+    font-family: Arial, sans-serif;
+   
+    background-image: url("https://www.mindinventory.com/blog/wp-content/uploads/2024/07/Benefits-of-DevOps.webp");
+   background-attachment: fixed;
+}
+body img{
+    
+     background-size: cover;
+    background: fixed;
+}
+#nav{
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    background: fixed;
+    background-color:gray;
+    padding: 0%;
+    margin: 0%
+    
+
+}
+
+#prj{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: end;
+    height: 30px;
+    width: 400px;
+}
+nav img {
+   
+    height: 80px;
+    width: 100px;
+
+  }
+#bb{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+
+}  
+  
+#abc{
+    display: flex;
+width: 100%;
+
+}
+
+
+#head{
+    height: 80px;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    z-index: 10;
+   margin: 0;
+   padding: 0;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+}
+
+
+
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+    color: #fff;
+}
+
+   
+
+.profile-image img {
+    width: 200px;
+    height: 200px;
+}
+
+.about-me ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+#div1{ 
+   padding-top: 20px;
+   margin-top: 100px;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 130px;
+    
+    
+}
+nav li:hover{
+text-shadow: #333;
+border: 2px solid ;
+background-color: lightblue;
+}
+#home{
+   
+ 
+    border-radius: 20px;
+    width: 1100px;
+    height: 80vh;
+    background-color: white;
+}
+.profile-image{
+    /* border:2px solid blue; */
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    position: relative;
+    left: 80%;
+    top: 20px;
+}
+.profile-details{
+    
+    width: 250px;
+    position: relative;
+    left: 35%;
+  top: -90px;
+  display: grid;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+}
+.about-me{
+ 
+    height: 200px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    padding-left: 10px;
+    margin-left: 20px
+
+}
+#div2{ 
+    padding-top: 20px;
+    margin-top: 20px;
+     display: flex;
+     margin-top: 100px;
+     justify-content: center;
+     align-items: center;
+     position: relative;
+     left: 130px;
+     
+     
+ }
+ #div4{ 
+    padding-top: 20px;
+    margin-top: 20px;
+     display: flex;
+     margin-top: 100px;
+     justify-content: center;
+     align-items: center;
+     position: relative;
+     left: 130px;
+ }
+ #projecttt{
+    border-radius: 20px;
+    margin-top: 100px;
+    width: 1100px;
+    height: 80vh;
+    background-color: white;
+    padding-left: 30px;
+    margin-left: 20px
+}
+#projecttt img{
+    margin-top: 70px;
+width: 1000px;
+height: 400px;
+}
+
+ #projects{
+    
+    /* border: 2px solid red; */
+    border: none;
+    border-radius: 20px;
+    width: 1100px;
+    height: 80vh;
+    background-color: white;
+
+ }
+ #foot{
+    height: 50px;
+    background-color: black;
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    font-size: larger;
+    text-align: end;
+    color: white;
+ }
+ footer a:hover{
+    color:rgb(0, 0, 0);
+ }
+ .project-container{
+    padding-left: 30px;
+    margin-left: 20px
+
+ }
+ #div3{ 
+    padding-top: 20px;
+    margin-top: 20px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     position: relative;
+     left: 130px;   
+ }
+ #link{
+    border-radius: 20px;
+    margin-top: 100px;
+    width: 1100px;
+    height: 80vh;
+    background-color: white;
+    padding-left: 30px;
+    margin-left: 20px
+}
+
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+    z-index: 1000;
+    position: fixed;
+    background: fixed;
+    background-color:gray;
+    background-color: #f2f2f2;
+  }
+  
+  .logo img {
+    width: 130px;
+    height: 50px;
+  }
+  
+  .nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-right: 20px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
